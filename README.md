@@ -1,4 +1,9 @@
-var jsonio=require('../index');
+```
+npm install jsonio --save
+```
+
+```
+var jsonio=require('jsonio');
 
 jsonio.write('test.json',{
     name:'tom',
@@ -14,3 +19,4 @@ jsonio.append('test.json',{
 jsonio.read('test.json',function(json){
     console.log(json);
 })
+```
